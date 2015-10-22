@@ -1,0 +1,6 @@
+#!/bin/bash
+if (args.Length==1 || args.Length==0 || args.Length>2) 
+then
+    echo "USAGE: lc file1 file2 . The function outputs file2 after changing all characters in file1 to lowercase."
+fi
+everymain < $1 > $2
