@@ -1,5 +1,6 @@
 #include "everyother.h"
 #include <ctype.h>
-char everyother(char c){
+char lowercase(char c){
     c = tolower(c);
-    }
+    return c;
+}
